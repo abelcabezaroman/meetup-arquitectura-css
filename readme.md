@@ -1,81 +1,16 @@
-# inferno-starter
+# Curso Arquitectura CSS
 
-> Webpack2 boilerplate for building SPA / PWA / offline front-end apps with [Inferno](https://github.com/infernojs/inferno) :fire:
+En este repositorio estará almacenado el proyecto presentado en el meetup del día 28/06/2017 llamado "Arquitectura CSS, Se eficiente con tus estilos"
 
-Using `inferno-starter` will kickstart your next application! :100: It is designed to fit the "90% use-case" for those who want to build offline-first web apps (see [features](#features) below).
+Dar las gracias al grupo de meetup [Front-end Developers Madrid](https://www.google.es/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwiU_7fT4N3UAhXGCBoKHeq-D_kQFggpMAA&url=https%3A%2F%2Fwww.meetup.com%2Fes-ES%2FFront-end-Developers-Madrid%2F&usg=AFQjCNEgSGtQcwmpbuOWpRGgheUvNoRd_g) por la organización y a [Paradigma](https://www.google.es/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&sqi=2&ved=0ahUKEwj4k-Lz4N3UAhVHvRoKHXeeCg4QFgg8MAI&url=https%3A%2F%2Fwww.paradigmadigital.com%2F&usg=AFQjCNG2n1pkqN2X6fbnGtDhRPcbzn0adw) por el lugar de presentación.
 
-> :triangular_flag_on_post: **Important:** This is meant for _client-side_ apps only; there is **no support** included for universal / server-side rendering. I plan to release my own SSR kit shortly, but in the meantime you may [use this](https://github.com/nightwolfz/inferno-starter).
+## Contacto
 
-**Please note:** Boilerplate _does not_ incorporate the latest ["css-in-js" or "css modules" technique](https://github.com/MicheleBertoli/css-in-js). Instead, the more traditional approach is taken, wherein `styles` and `scripts` are kept separate. That said, you may **certainly and easily** take that route if desired. :white_check_mark:
+Para cualquier duda, mejora o incoherencia existencial podéis contactarme a traves de mi correco `contacto@abelcabezaroman.com`. También podrás encontrarme en los siguientes rincones:
 
----
-<p align="center">:warning: Boilerplate & commands will evolve as my own development process does. :warning:</p>
----
+- [abelcabezaroman.com](http://abelcabezaroman.com)
+- [Youtube](https://www.youtube.com/channel/UCEM-F2ydtHRjD9QwmY3cieg)
+- [Twitter](https://twitter.com/abelcabezaroman)
 
-## Install
 
-```sh
-git clone https://github.com/lukeed/inferno-starter
-npm install
-npm start
-```
-
-> :exclamation: **Pro Tip:** Use [Yarn](https://yarnpkg.com/) to install dependencies 3x faster than NPM!
-
-## Features
-
-* Offline Caching (via `serviceWorker`)
-* SASS & Autoprefixer
-* Asset Versioning (aka "cache-busting")
-* ES2015 (ES6) and ES2016 (ES7) support
-* Webpack Bundle Analysis (see [dashboard](#dashboard))
-* Hot Module Replacement (HMR) for all files
-* [Lighthouse](https://github.com/GoogleChrome/lighthouse) certified
-
-  ![lightouse](src/static/img/lighthouse.jpg)
-
-## Development
-
-### Commands
-
-Any of the following commands can (and should :wink:) be run from the command line.
-
-> If using [Yarn](https://yarnpkg.com/), all instances of `npm` can be replaced with `yarn`. :ok_hand:
-
-#### build
-
-```
-$ npm run build
-```
-
-Compiles all files. Output is sent to the `dist` directory.
-
-#### start
-
-```
-$ npm start
-```
-
-Runs your application (from the `dist` directory) in the browser.
-
-#### watch
-
-```
-$ npm run watch
-```
-
-Like [`start`](#start), but will auto-compile & auto-reload the server after any file changes within the `src` directory.
-
-### Dashboard
-
-With [`webpack-dashboard`](https://github.com/FormidableLabs/webpack-dashboard), it's much easier to see what's happening inside your bundles. In addition to de-cluttering your `webpack-dev-server` log, you can quickly make sense of your bundles' `import`s and sizes.
-
-![dashboard](src/static/img/dev-dash.jpg)
-
-The dashboard is meant to be interactive (scrollable). If you are having issues, please see the author's note:
-
-> ***OS X Terminal.app users:*** Make sure that **View → Allow Mouse Reporting** is enabled, otherwise scrolling through logs and modules won't work. If your version of Terminal.app doesn't have this feature, you may want to check out an alternative such as [iTerm2](https://www.iterm2.com/index.html).
-
-## License
-
-MIT © [Luke Edwards](https://lukeed.com)
+>El boilerplate base usado para esta demostración ha sido creado por [Luke Edwards](https://lukeed.com). 
