@@ -1,0 +1,44 @@
+//******************************************************************************
+//  #COMPONENT BUTTON
+//******************************************************************************
+
+.c-button {
+	padding          : 0 15px;
+	min-width        : 135px;
+	background-color : $color-primary;
+	color            : $color-white;
+	border           : 0;
+	line-height      : 100%;
+	transition       : .25s;
+	outline          : 2px solid transparent;
+	height           : 45px;
+	cursor           : pointer;
+	font-family      : 'Arial', serif;
+	&:hover,
+	&:active,
+	&:focus {
+		background-color : transparentize($color-primary, 0.3);
+		border           : 0; // color: transparentize($color-white, 0.9);
+	}
+	&--secondary {
+		background-color : $color-secondary;
+		color            : $color-white;
+		&:hover,
+		&:active,
+		&:focus {
+			background-color : transparentize($color-secondary, 0.3);
+			color            : $color-white;
+		}
+	}
+	&--big {
+		min-width : 300px;
+	}
+	&--full{
+		width :100%;
+	}
+	&--disabled,
+	&[disabled] {
+		opacity        : .5;
+		pointer-events : none;
+	}
+}

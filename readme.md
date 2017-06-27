@@ -1,4 +1,4 @@
-# Curso Arquitectura CSS
+# Meetup Arquitectura CSS
 
 En este repositorio estará almacenado el proyecto presentado en el meetup del día 28/06/2017 llamado "Arquitectura CSS, Se eficiente con tus estilos"
 

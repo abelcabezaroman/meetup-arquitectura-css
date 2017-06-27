@@ -3,9 +3,9 @@ import Header from './header';
 
 export default function (props) {
 	return (
-		<div id="app">
+		<div>
 			<Header />
-			<main id="content">
+			<main>
 				{ props.children }
 			</main>
 		</div>

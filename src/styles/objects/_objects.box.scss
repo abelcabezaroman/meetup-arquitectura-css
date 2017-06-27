@@ -1,0 +1,27 @@
+/* ==========================================================================
+   #BOX
+   ========================================================================== */
+
+/**
+ * The box object simply boxes off content. Extend with cosmetic styles in the
+ * Components layer.
+ *
+ * 1. So we can apply the `.o-box` class to naturally-inline elements.
+ */
+
+/* Size variants
+   ========================================================================== */
+
+.o-box--np-tb {
+	padding-top    : 0;
+	padding-bottom : 0;
+}
+
+.o-box--np-lr {
+	padding-left  : 0;
+	padding-right : 0;
+}
+
+.o-box--semi-large {
+	padding : 20px;
+}

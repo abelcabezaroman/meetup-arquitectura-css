@@ -1,0 +1,63 @@
+//******************************************************************************
+//  #TABLE COMPONENT
+//******************************************************************************
+
+.c-table {
+	&__tr-head {
+		background-color : $color-primary;
+		color            : $color-white;
+	}
+	&__tr:nth-child(odd) {
+		background-color : $color-gray-10;
+	}
+	&__td, &__td-head {
+		text-align : center;
+	}
+	&__td-head {
+		font-size   : 18px;
+		font-weight : 600;
+		padding     : 15px;
+	}
+	&__td {
+		padding : 10px;
+		&--important {
+			font-weight : bold;
+		}
+		&--primary {
+			color : $color-primary;
+		}
+	}
+	&--secondary {
+		.c-table {
+			&__tr-head {
+				color            : $color-secondary;
+				background-color : transparent;
+				border-bottom    : 1px solid $color-secondary;
+			}
+			&__td-head {
+				padding : 10px;
+			}
+			&__td {
+				position : relative;
+				&:after {
+					content      : "";
+					width        : 1px;
+					height       : 70%;
+					border-right : 1px dashed $color-secondary;
+					display      : block;
+					position     : absolute;
+					right        : 0;
+					top          : 15%;
+				}
+				&:last-child {
+					&:after {
+						display : none;
+					}
+				}
+				&--primary {
+					color : $color-secondary;
+				}
+			}
+		}
+	}
+}
