@@ -1,0 +1,5 @@
+@mixin disabled(){
+	opacity        : .5 !important;
+	/* cursor: not-allowed !important; */
+	pointer-events : none !important;
+}

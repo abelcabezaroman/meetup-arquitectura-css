@@ -12,7 +12,7 @@
 
 .o-content {
 	@include inuit-clearfix();
-	display: block;
+	//display: block;
 	/* [1] */
 	padding-top: $inuit-global-spacing-unit;
 	padding-bottom: $inuit-global-spacing-unit;

@@ -83,12 +83,12 @@
 @import '~bootstrap/scss/mixins';
 @import '~bootstrap/scss/custom';
 
+@import "settings/bootstrap/settings.grid";
+
 @import "settings/settings.colors";
-@import "settings/settings.breakpoints";
 @import "settings/settings.core";
 @import "settings/settings.paths";
 @import "settings/settings.prefix";
-//@import "settings/settings.wrapper";
 
 
 
@@ -99,15 +99,18 @@
 @import "~inuitcss/tools/tools.hidden";
 @import "~sass-mq/mq";
 
+@import "tools/tools.absolute-center";
+@import "tools/tools.disabled";
+@import "tools/tools.font-face";
 
 
 
 
 // GENERIC
 @import "~inuitcss/generic/generic.box-sizing";
-@import "~inuitcss/generic/generic.normalize";
+//@import "~inuitcss/generic/generic.normalize";
 @import "~inuitcss/generic/generic.reset";
-@import "~inuitcss/generic/generic.shared";
+//@import "~inuitcss/generic/generic.shared";
 
 @import '~bootstrap/scss/grid';
 
@@ -158,6 +161,9 @@
 @import "components/components.button";
 @import "components/components.table";
 @import "components/components.heading-content";
+@import "components/components.header";
+@import "components/components.nav";
+@import "components/components.input";
 
 
 

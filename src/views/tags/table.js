@@ -19,7 +19,7 @@ export default function () {
 				<td className="c-table__td c-table__td--important c-table__td--primary">Contenido</td>
 				<td className="c-table__td">Contenido</td>
 				<td className="c-table__td">Contenido</td>
-				<td className="c-table__td">Contenido</td>
+				<td className="c-table__td"><button className="c-button c-button--full">Botón</button></td>
 			</tr>
 			<tr className="c-table__tr">
 				<td className="c-table__td">Contenido</td>

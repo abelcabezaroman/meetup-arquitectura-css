@@ -1,0 +1,18 @@
+//******************************************************************************
+//  #HEADER COMPONENT
+//******************************************************************************
+
+.c-header {
+
+	&__top, &__bottom {
+		background-color : $color-primary;
+		border-bottom    : 1px solid $color-white;
+	}
+	&__content {
+		padding : 20px 0;
+	}
+	&__logo {
+		margin-bottom : 0;
+		color         : $color-white;
+	}
+}

@@ -1,0 +1,16 @@
+//******************************************************************************
+//  #NAV COMPONENT
+//******************************************************************************
+
+.c-nav {
+	&__link {
+		padding         : 10px;
+		display         : inline-block;
+		color           : white;
+		text-decoration : none;
+		transition      : .25s background-color ease-in-out;
+		&:hover {
+			background-color : $color-secondary;
+		}
+	}
+}
