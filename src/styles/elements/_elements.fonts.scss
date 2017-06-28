@@ -14,22 +14,33 @@
 //*/
 
 @include font-face(Raleway,
-	$font-path	+ "Raleway/Raleway-Regular",
+	$font-path	+ "raleway/ralewayregular",
 	normal,
 	normal,
 	woff ttf eot svg
 );
+//
+//@font-face {
+//	font-family: 'Raleway';
+//	src: url('../../static/fonts/raleway/ralewayregular.eot');
+//	src: url('../../static/fonts/raleway/ralewayregular.eot#iefix') format('embedded-opentype'),
+//	url('../../static/fonts/raleway/ralewayregular.woff') format('woff'),
+//	url('../../static/fonts/raleway/ralewayregular.ttf') format('truetype'),
+//	url('../../static/fonts/raleway/ralewayregular.svg') format('svg');
+//	font-weight: normal;
+//	font-style: normal;
+//}
+//
+//@include font-face(Raleway--black,
+//	$font-path	+ "Raleway/RalewayBlack",
+//	normal,
+//	normal,
+//	woff ttf eot svg
+//);
 
-@include font-face(Raleway--black,
-	$font-path	+ "Raleway/Raleway-Black",
-	normal,
-	normal,
-	woff ttf eot svg
-);
-
-@include font-face(Raleway--light,
-	$font-path	+ "Raleway/Raleway-Light",
-	normal,
-	normal,
-	woff ttf eot svg
-);
+//@include font-face(Raleway--light,
+//	$font-path	+ "Raleway/RalewayLight",
+//	normal,
+//	normal,
+//	woff ttf eot svg
+//);

@@ -8,7 +8,7 @@ Dar las gracias al grupo de meetup [Front-end Developers Madrid](https://www.goo
 
 Para cualquier duda, mejora o incoherencia existencial podéis contactarme a traves de mi correco `contacto@abelcabezaroman.com`. También podrás encontrarme en los siguientes rincones:
 
-- [abelcabezaroman.com](http://abelcabezaroman.com)
+- [www.abelcabezaroman.com](http://abelcabezaroman.com)
 - [Youtube](https://www.youtube.com/channel/UCEM-F2ydtHRjD9QwmY3cieg)
 - [Twitter](https://twitter.com/abelcabezaroman)
 

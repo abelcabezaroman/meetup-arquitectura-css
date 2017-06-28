@@ -19,14 +19,20 @@ export default function () {
 				<td className="c-table__td c-table__td--important c-table__td--primary">Contenido</td>
 				<td className="c-table__td">Contenido</td>
 				<td className="c-table__td">Contenido</td>
-				<td className="c-table__td"><button className="c-button c-button--full">Botón</button></td>
+				<td className="c-table__td">
+					<button className="c-button c-button--full">Botón full</button>
+				</td>
 			</tr>
 			<tr className="c-table__tr">
 				<td className="c-table__td">Contenido</td>
 				<td className="c-table__td">Contenido</td>
 				<td className="c-table__td">Contenido</td>
 				<td className="c-table__td">Contenido</td>
-				<td className="c-table__td">Contenido</td>
+				<td className="c-table__td">
+					<div className="c-input">
+						<input className="c-input__element" type="text" placeholder="Introduce un texto"/>
+					</div>
+				</td>
 			</tr>
 			<tr className="c-table__tr">
 				<td className="c-table__td">Contenido</td>
