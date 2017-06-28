@@ -1,0 +1,16 @@
+//******************************************************************************
+//  #CONTACT LIST COMPONENT
+//******************************************************************************
+
+.c-contact-list {
+	list-style : none;
+	&__item {
+		padding      : 10px;
+		border-left  : 1px solid $color-gray-50;
+		border-right : 1px solid $color-gray-50;
+		border-top   : 1px solid $color-gray-50;
+		&:last-child {
+			border-bottom : 1px solid $color-gray-50;
+		}
+	}
+}
