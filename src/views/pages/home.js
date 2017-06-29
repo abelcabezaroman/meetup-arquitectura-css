@@ -86,7 +86,7 @@ export default function (props) {
 
 
 				<section className="o-content">
-					<h2 className="c-heading-content">Tabla Secondaria</h2>
+					<h2 className="c-heading-content">Tabla Secundaria</h2>
 					<div className="o-content">
 						<CTableSecondary/>
 					</div>
