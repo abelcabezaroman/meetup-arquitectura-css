@@ -16,10 +16,6 @@
 @import "../../node_modules/inuitcss/settings/settings.core";
 @import "../../node_modules/inuitcss/settings/example.settings.global";
 
-// Bootstrap variables
-@import '../../node_modules/bootstrap/scss/variables';
-@import '../../node_modules/bootstrap/scss/mixins';
-@import '../../node_modules/bootstrap/scss/custom';
 
 
 
@@ -53,7 +49,7 @@
 //@import "../../node_modules/inuitcss/generic/generic.shared";
 
 // Bootstrap
-@import '../../node_modules/bootstrap/scss/grid';
+@import '../../node_modules/bootstrap/scss/bootstrap-grid';
 
 
 
